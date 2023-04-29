@@ -75,14 +75,13 @@ From the AWS console, go to Route53.
 Select Hosted zones
 ![](hostedZones.png)
 Select the relevant domain name – click create record 
-using the wizard, select  “simple routing” policy – Define simple record 
-Value: Alias to S3 website endpoint 
-Choose region – (as with hosted bucket)
-Select the s3 endpoint
-![](simpleRecord.png)
-Disable evaluate target health
-Confirm by clicking define simple record. 
-Changes should be live within a few minutes. Navigating to ladcze.click will return the same website with correct custom domain name thereafter. 
+using the wizard, select  “simple routing” policy – Define simple record   
+Value: Alias to S3 website endpoint  
+Choose region – (as with hosted bucket)  
+Select the s3 endpoint  
+![](simpleRecord.png)  
+Disable evaluate target health, and Confirm by clicking define simple record.  
+<br/> Changes should be live within a few minutes. Navigating to ladcze.click will return the same website with correct custom domain name thereafter. 
 ![](staticWeb-Post-DNS-Update.png)
 
 ---
